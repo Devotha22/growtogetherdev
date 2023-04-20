@@ -8,6 +8,7 @@ import UmuSchedule from "./pages/UmuSchedule";
 import HealthLogin from "./pages/HealthLogin";
 import HealthHome from "./pages/HealthHome";
 import HealthRegist from "./pages/HealthRegist";
+import Forgetpwd from './pages/Forgetpwd';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/healthlogin" element={<HealthLogin/>}/>
         <Route path="/healthhome" element={<HealthHome/>}/>
         <Route path="/healthregist" element={<HealthRegist/>}/>
+        <Route path="/forgetpassword" element={<Forgetpwd/>}/>
       </Routes>
     </div>
   );

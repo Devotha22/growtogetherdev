@@ -63,7 +63,7 @@ const Login = () => {
         </span>
        
       </div>
-      <a href="#" className="underline text-sm">Forget password?</a><br/>
+     <Link to="/forgetpassword"> <a href="#" className="underline text-sm">Forget password?</a></Link><br/>
     
         <input
          type="checkbox" 

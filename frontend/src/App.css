@@ -105,10 +105,11 @@ align-items: center;
   .healthlog{
     width: 28%;
   }
-  .healthbg{ background-color: gray;
+  .healthbg{ background-color: black;
     background-image: url("img/bgg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    @apply h-screen opacity-95
+    opacity: 1;
+    
 }
