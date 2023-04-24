@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from '../components/Header';
+import Header from '../../components/Header';
 import { useState } from 'react';
 const Forgetpwd = () => {
     const [email, setEmail] = useState("");
     return (
-        <div>
+        <div className="login content-center justify-center">
             <Header />
 
-            <div className="rounded-3xl p-10 
+            <div className="  rounded-3xl p-10 
                  h-80 w-1/4 m-32 items-center justify-items-center bg-gray-400">
                 <p className="py-6">You forget password Don't worry we recover it for you</p>
                 <input className="my-4"
