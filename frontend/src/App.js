@@ -20,6 +20,7 @@ import Parentlist from "./pages/Healthcare/Parentlist";
 import Message from "./pages/Healthcare/Message";
 import Appointmentlist from "./pages/Healthcare/Appointmentlist";
 import Contactus from "./pages/Parent/Contactus";
+import ResetInstruction from "./pages/Parent/ResetInstruction";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/message" element={<Message/>}/>
         <Route path="/appointmentlist" element={<Appointmentlist/>}/>
         <Route path="/contactus" element={<Contactus/>}/>
+       <Route path="/resetinstruction" element={<ResetInstruction/>}/>
       </Routes>
     </div>
   );
